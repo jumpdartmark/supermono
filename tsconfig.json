@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "noEmit": false,
+    "jsx": "react"
+  },
+  "exclude": [
+    "packages/**/tests/**",
+    "packages/**/dist/**"
+  ],
+  "references": [
+    {
+      "path": "packages/core"
+    },
+    {
+      "path": "packages/react-components"
+    },
+    {
+      "path": "apps/react-app"
+    },
+    {
+      "path": "apps/express"
+    }
+  ]
+}

@@ -1,4 +1,15 @@
 {
-  "name": "react-components",
-  "packageManager": "yarn@3.2.2"
+  "name": "@supermono/react-components",
+  "packageManager": "yarn@3.2.2",
+  "main": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.19",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.8.3"
+  }
 }

@@ -1,7 +1,12 @@
 {
   "name": "supermono",
   "packageManager": "yarn@3.2.2",
-  "devDependencies": {
-    "typescript": "^4.7.4"
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "dependencies": {
+    "typescript": "^4.8.3"
   }
 }
