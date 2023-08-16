@@ -16,9 +16,6 @@
       "path": "packages/react-components"
     },
     {
-      "path": "apps/react-app"
-    },
-    {
       "path": "apps/express"
     }
   ]
